@@ -1,7 +1,7 @@
-import { ButtonHTMLAttributes } from "react";
+import { LinkProps } from "react-router-dom";
 
-export interface CardMediaOptionProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface CardMediaOptionProps extends LinkProps {
   title: string;
   isBlue?: boolean;
-  image: string;
+  image?: string;
 }

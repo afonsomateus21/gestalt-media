@@ -1,13 +1,12 @@
 import { CardMediaOption } from "../components/CardMediaOption";
-import MovieImage from "../assets/movie-image.png";
 import GameImage from "../assets/game-image.png";
 import CoverImage from "../assets/cover-image.png";
-import AdvertisingImage from "../assets/advertising-image.png";
+import MovieImage from "../assets/movie-image.png";
 
 export function MediaOptions() {
   return (
     <div 
-      className="w-full h-full flex items-center"
+      className="w-full h-screen flex items-center"
     >
       <div className="w-[1200px] h-[800px] mx-auto my-0 flex flex-col justify-evenly">
         <div className="w-full">
@@ -16,25 +15,28 @@ export function MediaOptions() {
         
         <div className="w-full flex justify-evenly">
           <CardMediaOption 
+            to="/"
+            title="Inicio"
+            isBlue
+          />
+
+          <CardMediaOption 
+            to="/media-options/movies-series"
             title="Filmes e Séries"
             image={ MovieImage }
           />
 
           <CardMediaOption 
+            to="/media-options/games"
+            isBlue
             title="Jogos"
             image={ GameImage }
-            isBlue
           />
 
           <CardMediaOption 
+            to="/media-options/album-covers"
             title="Capas de Discos"
             image={ CoverImage }
-          />
-
-          <CardMediaOption 
-            title="Publicidade"
-            image={ AdvertisingImage }
-            isBlue
           />
         </div>
 

@@ -4,36 +4,41 @@ import { ProximitySection } from "../components/ProximitySection";
 
 export function Home() {
   return (
-    <div 
-      className="relative mx-auto my-0 border-4 h-[500px] w-[800px] flex flex-col items-center justify-center gap-3"
-    >
-      <div className="absolute -left-20 top-0">
-        <ProximitySection />
+    <div className="h-screen flex items-center">
+      <div 
+        className="relative mx-auto my-0 border-4 h-[500px] w-[800px] flex flex-col items-center justify-center gap-3"
+      >
+        <div className="absolute -left-20 top-0">
+          <ProximitySection />
+        </div>
+        <OptionButton 
+          to="/media-options"
+          title="Começar"
+        >
+          <CirclePlay 
+            color="#fff" 
+            size={40} 
+          />
+        </OptionButton>
+        <OptionButton 
+          to="/references"
+          title="Referências"
+        >
+          <Globe 
+            color="#fff" 
+            size={40} 
+          />
+        </OptionButton>
+        <OptionButton
+          to="/credits" 
+          title="Créditos"
+        >
+          <Users 
+            color="#fff" 
+            size={40} 
+          />
+        </OptionButton>
       </div>
-      <OptionButton 
-        title="Começar"
-      >
-        <CirclePlay 
-          color="#fff" 
-          size={40} 
-        />
-      </OptionButton>
-      <OptionButton 
-        title="Referências"
-      >
-        <Globe 
-          color="#fff" 
-          size={40} 
-        />
-      </OptionButton>
-      <OptionButton 
-        title="Créditos"
-      >
-        <Users 
-          color="#fff" 
-          size={40} 
-        />
-      </OptionButton>
     </div>
   );
 }
