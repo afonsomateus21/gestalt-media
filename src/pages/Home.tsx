@@ -6,7 +6,7 @@ export function Home() {
   return (
     <div className="h-screen flex items-center">
       <div 
-        className="shadow-inner relative mx-auto my-0 border-4 h-[500px] w-[800px] flex flex-col items-center justify-center gap-3 rounded-[50px]"
+        className="shadow-inner relative mx-auto my-0 border-4 hover:border-blue-700 h-[500px] w-[800px] flex flex-col items-center justify-center gap-3 rounded-[50px]"
       >
         <div className="absolute -left-20 top-0">
           <ProximitySection />

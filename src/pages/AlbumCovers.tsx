@@ -6,13 +6,13 @@ import MovieImage from "../assets/movie-image.png";
 export function AlbumCovers() {
   return (
     <div className="min-h-screen w-full text-white p-8 flex flex-col items-center">
-      <div className="relative w-full w-[500px] h-[300px] bg-cover bg-center rounded-[50px] border-8 shadow-lg overflow-hidden mb-10">
-        <div className="absolute inset-0 flex flex-col items-center justify-center p-10 bg-gradient-to-t from-blue-950 to-transparent">
-          <h2 className="text-[4rem] mb-10 text-white text-center font-bold leading-tight">A Melodia da Gestalt</h2>
+      <div className="relative w-[1000px] h-[300px] bg-cover bg-center rounded-[50px] border-8 shadow-lg overflow-hidden mb-10 bg-gradient-to-b from-blue-950 to-blue-900">
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-10">
+          <h2 className="text-[4rem] mb-10 text-white text-center font-extrabold leading-tight">A Melodia da Gestalt</h2>
         </div>
-        <div className="absolute inset-x-0 bottom-0 p-5 bg-blue-700 text-center">
-          <h2 className="text-sm mb-2 font-bold">Álbuns e Gestalt</h2>
-          <strong className="text-sm font-medium">
+        <div className="absolute inset-x-0 bottom-0 p-5 bg-blue-600 text-center rounded-t-3xl">
+          <h2 className="text-lg mb-2 font-bold">Álbuns e Gestalt</h2>
+          <strong className="text-md font-medium">
             Exemplos de como a Gestalt é aplicada em capas de álbuns com diferentes leis visuais.
           </strong>
         </div>
@@ -24,7 +24,7 @@ export function AlbumCovers() {
             <a 
               href="https://www.youtube.com/watch?v=IluRBvnYMoY&list=PLSbDLF8wQ3oKcstd9ybCSv2lNm_8NTYkI"
               target="_blank" rel="noopener noreferrer"
-              className="absolute bottom-3 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
+              className="absolute bottom-3 hover:bg-neutral-300 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
             >
               <CirclePlay color="#1e40af" size={50} />
             </a>
@@ -42,7 +42,7 @@ export function AlbumCovers() {
             <a 
               href="https://www.youtube.com/watch?v=VtXl8xAPAtA&list=PL3PhWT10BW3VDM5IcVodrdUpVIhU8f7Z-"
               target="_blank" rel="noopener noreferrer"
-              className="absolute bottom-3 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
+              className="absolute bottom-3 hover:bg-neutral-300 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
             >
               <CirclePlay color="#1e40af" size={50} />
             </a>
@@ -60,7 +60,7 @@ export function AlbumCovers() {
             <a 
               href="https://www.youtube.com/watch?v=Bar7SzNLnY0&list=PLu1hvmv2UyrqnZzJwPvEvA9PWIyo5M9bb"
               target="_blank" rel="noopener noreferrer"
-              className="absolute bottom-3 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
+              className="absolute bottom-3 hover:bg-neutral-300 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
             >
               <CirclePlay color="#1e40af" size={50} />
             </a>
@@ -78,7 +78,7 @@ export function AlbumCovers() {
             <a 
               href="https://www.youtube.com/watch?v=eQGobt4ub6U&list=PL6ogdCG3tAWjqM4m8hHMh5jaab6rs3K_i"
               target="_blank" rel="noopener noreferrer"
-              className="absolute bottom-3 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
+              className="absolute bottom-3 hover:bg-neutral-300 right-3 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
             >
               <CirclePlay color="#1e40af" size={50} />
             </a>
@@ -92,7 +92,7 @@ export function AlbumCovers() {
         </div>
       </div>
 
-      <div className="w-full mt-7 bg-gradient-to-t from-blue-950 p-10 rounded-[50px] shadow-lg border-8 border-white">
+      <div className="w-[1000px] mt-7 bg-gradient-to-t from-blue-950 p-10 rounded-[50px] shadow-lg border-8 border-white">
         <div className="w-full flex justify-center gap-10">
           <CardMediaOption 
             to="/"

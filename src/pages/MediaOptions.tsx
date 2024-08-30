@@ -10,7 +10,7 @@ export function MediaOptions() {
     >
       <div className="w-[1200px] h-[800px] mx-auto my-0 flex flex-col justify-evenly">
         <div className="w-full">
-          <h1 className="font-extrabold text-[5rem] text-white text-shadow-extrastrong-violet-stroke">Explorar</h1>
+          <h1 className="font-extrabold text-[5rem] text-white text-shadow-extrastrong-violet-stroke animate-blink">Explorar</h1>
         </div>
         
         <div className="w-full flex justify-evenly">
@@ -43,7 +43,7 @@ export function MediaOptions() {
         </div>
 
         <div className="ml-auto">
-        <h1 className="font-extrabold text-[5rem] text-white text-shadow-extrastrong-blue-stroke">Mídias</h1>
+        <h1 className="font-extrabold text-[5rem] text-white text-shadow-extrastrong-blue-stroke animate-blink">Mídias</h1>
         </div>
       </div>
     </div>

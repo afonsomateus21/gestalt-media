@@ -2,7 +2,8 @@ import { CirclePlay } from "lucide-react";
 import { CardMediaOptionProps } from "../interfaces/CardMediaOptionProps";
 import { Link } from "react-router-dom";
 
-export function CardMediaOption({ title, isBlue, isHome, image, ...props } : CardMediaOptionProps) {
+export function CardMediaOption(props: Readonly<CardMediaOptionProps>) {
+  const { title, isBlue, isHome, image } = props;
   return (
     <Link 
       className={`${isBlue ? 'bg-gradient-to-b from-blue-950 to-violet-900' : 'bg-white'} relative w-64 h-80 rounded-3xl border-4 border-white opacity-40 hover:opacity-100 hover:brightness-125 flex flex-col items-center justify-center p-2`}

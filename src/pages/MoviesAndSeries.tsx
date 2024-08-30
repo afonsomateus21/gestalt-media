@@ -5,14 +5,14 @@ import CoverImage from "../assets/cover-image.png";
 
 export function MoviesAndSeries() {
   return (
-    <div className="min-h-screen w-full my-0 mx-auto p-8 text-white">
-      <div className="relative w-full w-[500px] h-[300px] bg-cover bg-center rounded-[50px] border-8 shadow-lg overflow-hidden mb-10">
-        <div className="absolute inset-0 flex flex-col items-center justify-center p-10 bg-gradient-to-t from-blue-950 to-transparent">
-          <h2 className="text-[4rem] mb-10 text-white text-center font-bold leading-tight">Do Roteiro à Realidade</h2>
+    <div className="min-h-screen w-full text-white p-8 flex flex-col items-center">
+      <div className="relative w-[1000px] h-[300px] bg-cover bg-center rounded-[50px] border-8 shadow-lg overflow-hidden mb-10 bg-gradient-to-b from-blue-950 to-blue-900">
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-10">
+          <h2 className="text-[4rem] mb-10 text-white text-center font-extrabold leading-tight">Do Roteiro à Realidade</h2>
         </div>
-        <div className="absolute inset-x-0 bottom-0 p-5 bg-blue-700 text-center">
-          <h2 className="text-sm mb-2 font-bold">Gestalt em Cinema e TV</h2>
-          <strong className="text-sm font-medium">
+        <div className="absolute inset-x-0 bottom-0 p-5 bg-blue-600 text-center rounded-t-3xl">
+          <h2 className="text-lg mb-2 font-bold">Gestalt em Cinema e TV</h2>
+          <strong className="text-md font-medium">
             Exemplos de como a Gestalt é aplicada em séries e filmes.
           </strong>
         </div>
@@ -24,7 +24,7 @@ export function MoviesAndSeries() {
           <a 
             href="https://www.tiktok.com/@falasun/video/7402750521355947270"
             target="_blank" rel="noopener noreferrer"
-            className="absolute bottom-5 right-5 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
+            className="absolute bottom-5 hover:bg-neutral-300 right-5 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
           >
             <CirclePlay color="#1e40af" size={40} />
           </a>
@@ -127,7 +127,7 @@ export function MoviesAndSeries() {
         </div>
       </div>
 
-      <div className="w-full mt-7 bg-gradient-to-t from-blue-950 p-10 rounded-[50px] shadow-lg border-8 border-white">
+      <div className="w-[1000px] mt-7 bg-gradient-to-t from-blue-950 p-10 rounded-[50px] shadow-lg border-8 border-white">
         <div className="w-full flex justify-center gap-10">
           <CardMediaOption 
             to="/"
