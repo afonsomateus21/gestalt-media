@@ -1,3 +1,4 @@
+import { CirclePlay } from "lucide-react";
 import { CardMediaOption } from "../components/CardMediaOption";
 import GameImage from "../assets/game-image.png";
 import CoverImage from "../assets/cover-image.png";
@@ -17,97 +18,110 @@ export function MoviesAndSeries() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-slate-200 pb-8 mt-10">
-        <a href="https://www.tiktok.com/@falasun/video/7402750521355947270" target="_blank" rel="noopener noreferrer">
-          <div className="relative h-[400px] w-[300px] md:w-[400px] bg-wolverine-image hover:bg-batmans-image bg-cover cursor-pointer transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
-            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent h-1/3 text-white text-center p-2">
-              <p className="text-xl font-bold">Fechamento</p>
-              <p>A máscara do Wolverine são dois Batmans se encarando?</p>
-            </div>
-          </div>
-        </a>
+      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-white pb-8 mt-10 max-w-[1000px] mx-auto">
+        <div className="relative h-[400px] w-[650px] md:w-[650px] bg-wolverine-image hover:bg-batmans-image bg-cover cursor-pointer transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
+          <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent h-1/3 text-white text-center p-2"></div>
+          <a 
+            href="https://www.tiktok.com/@falasun/video/7402750521355947270"
+            target="_blank" rel="noopener noreferrer"
+            className="absolute bottom-5 right-5 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
+          >
+            <CirclePlay color="#1e40af" size={40} />
+          </a>
+        </div>
+        <div className="text-left mx-8 max-w-[500px]">
+          <h2 className="text-2xl mb-2 font-bold">Wolverine (Fechamento)</h2>
+          <strong className="text-xl font-medium">
+            A máscara do Wolverine são dois Batmans se encarando?
+          </strong>
+        </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-slate-200 pb-8">
-          <a href="https://www.youtube.com/watch?v=BwVKSGu8wEA" target="_blank" rel="noopener noreferrer">
-            <div className="relative h-[400px] w-[500px] bg-psicose-image bg-cover cursor-pointer hover:brightness-125 transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent text-white text-center p-2 rounded-b-lg">
-                <p className="text-xl font-bold">Pregnância</p>
-                <p>A cena utiliza formas simples e abstratas para criar um efeito intenso.</p>
-              </div>
-            </div>
-          </a>
-        <div className="text-left mx-8">
-          <h2 className="text-2xl mb-2 font-bold">Psicose</h2>
+      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-white pb-8 max-w-[1000px] mx-auto">
+        <a href="https://www.youtube.com/watch?v=BwVKSGu8wEA" target="_blank" rel="noopener noreferrer">
+          <iframe 
+            width="500" 
+            height="400" 
+            src="https://www.youtube.com/embed/BwVKSGu8wEA" 
+            title="Pregnância - Psicose" 
+            className="rounded-[50px] border-8 border-white overflow-hidden shadow-lg shadow-inner">
+          </iframe>
+        </a>
+        <div className="text-left mx-8 max-w-[500px]">
+          <h2 className="text-2xl mb-2 font-bold">Psicose (Pregnância)</h2>
           <strong className="text-xl font-medium">
             A cena, filmada em close-up e com poucos cortes, utiliza formas simples e abstratas para criar um efeito de suspense e horror intenso.
           </strong>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-slate-200 pb-8">
-          <a href="https://www.youtube.com/watch?v=aTkeduQ81Kw" target="_blank" rel="noopener noreferrer">
-            <div className="relative h-[400px] w-[300px] bg-soldier-image bg-cover cursor-pointer hover:brightness-125 transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent text-white text-center p-2 rounded-b-[50px]">
-                <p className="text-xl font-bold">Semelhança</p>
-                <p>A uniformidade dos soldados e paisagens enfatiza a natureza massiva do conflito.</p>
-              </div>
-            </div>
-          </a>
-        <div className="text-left mx-8">
-          <h2 className="text-2xl mb-2 font-bold">O Resgate do Soldado Ryan</h2>
+      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-white pb-8 max-w-[1000px] mx-auto">
+        <a href="https://www.youtube.com/watch?v=aTkeduQ81Kw" target="_blank" rel="noopener noreferrer">
+          <iframe 
+            width="500" 
+            height="400" 
+            src="https://www.youtube.com/embed/aTkeduQ81Kw" 
+            title="Pregnância - O Resgate do Soldado Ryan" 
+            className="rounded-[50px] border-8 border-white overflow-hidden shadow-lg shadow-inner">
+          </iframe>
+        </a>
+        <div className="text-left mx-8 max-w-[500px]">
+          <h2 className="text-2xl mb-2 font-bold">O Resgate do Soldado Ryan (Semelhança)</h2>
           <strong className="text-xl font-medium">
             A uniformidade dos soldados, dos tanques e das paisagens áridas enfatiza a desindividualização e a natureza massiva do conflito.
           </strong>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-slate-200 pb-8">
-          <a href="https://www.youtube.com/watch?v=GQrrXceHn2E" target="_blank" rel="noopener noreferrer">
-            <div className="relative h-[400px] w-[400px] bg-conjuring-image bg-cover cursor-pointer hover:brightness-125 transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent text-white text-center p-2 rounded-b-[50px]">
-                <p className="text-xl font-bold">Fechamento</p>
-                <p>A câmera sugere a presença de entidades demoníacas sem mostrá-las explicitamente.</p>
-              </div>
-            </div>
-          </a>
-        <div className="text-left mx-8">
-          <h2 className="text-2xl mb-2 font-bold">Invocação do Mal</h2>
+      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-white pb-8 max-w-[1000px] mx-auto">
+        <a href="https://www.youtube.com/watch?v=GQrrXceHn2E" target="_blank" rel="noopener noreferrer">
+          <iframe 
+            width="500" 
+            height="400" 
+            src="https://www.youtube.com/embed/GQrrXceHn2E" 
+            title="Fechamento - Invocação do Mal" 
+            className="rounded-[50px] border-8 border-white overflow-hidden shadow-lg shadow-inner">
+          </iframe>
+        </a>
+        <div className="text-left mx-8 max-w-[500px]">
+          <h2 className="text-2xl mb-2 font-bold">Invocação do Mal (Fechamento)</h2>
           <strong className="text-xl font-medium">
             A câmera frequentemente se concentra em sombras e silhuetas, sugerindo a presença de entidades demoníacas sem mostrá-las explicitamente.
           </strong>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-slate-200 pb-8">
-          <a href="https://www.youtube.com/watch?v=8hP9D6kZseM" target="_blank" rel="noopener noreferrer">
-            <div className="relative h-[400px] w-[300px] bg-inception-image bg-cover cursor-pointer hover:brightness-125 transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent text-white text-center p-2 rounded-b-[50px]">
-                <p className="text-xl font-bold">Proximidade</p>
-                <p>O movimento das pessoas e prédios cria uma sensação de agrupamento e unidade.</p>
-              </div>
-            </div>
-          </a>
-        <div className="text-left mx-8">
-          <h2 className="text-2xl mb-2 font-bold">Inception</h2>
+      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-white pb-8 max-w-[1000px] mx-auto">
+        <a href="https://www.youtube.com/watch?v=8hP9D6kZseM" target="_blank" rel="noopener noreferrer">
+          <iframe 
+            width="500" 
+            height="400" 
+            src="https://www.youtube.com/embed/8hP9D6kZseM" 
+            title="Proximidade - Inception" 
+            className="rounded-[50px] border-8 border-white overflow-hidden shadow-lg shadow-inner">
+          </iframe>
+        </a>
+        <div className="text-left mx-8 max-w-[500px]">
+          <h2 className="text-2xl mb-2 font-bold">Inception (Proximidade)</h2>
           <strong className="text-xl font-medium">
             O movimento das pessoas e prédios cria uma sensação de agrupamento e unidade.
           </strong>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-slate-200 pb-8">
-          <a href="https://www.youtube.com/watch?v=0i86oM1nHjM" target="_blank" rel="noopener noreferrer">
-            <div className="relative h-[400px] w-[300px] bg-lord-image bg-cover cursor-pointer hover:brightness-125 transition-all duration-500 shadow-lg shadow-inner rounded-[50px] border-8 border-white overflow-hidden">
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent text-white text-center p-2 rounded-b-[50px]">
-                <p className="text-xl font-bold">Continuidade</p>
-                <p>A continuidade pode ser vista no caminho de Gandalf para o condado.</p>
-              </div>
-            </div>
-          </a>
-        <div className="text-left mx-8">
-          <h2 className="text-2xl mb-2 font-bold">Senhor dos Aneis</h2>
-          <strong className="text-xl text-center font-medium">
+      <div className="flex flex-col md:flex-row items-center mb-12 border-b-2 border-white pb-8 max-w-[1000px] mx-auto">
+        <a href="https://www.youtube.com/watch?v=0i86oM1nHjM" target="_blank" rel="noopener noreferrer">
+          <iframe 
+            width="500" 
+            height="400" 
+            src="https://www.youtube.com/embed/0i86oM1nHjM" 
+            title="Continuidade - Senhor dos Anéis" 
+            className="rounded-[50px] border-8 border-white overflow-hidden shadow-lg shadow-inner">
+          </iframe>
+        </a>
+        <div className="text-left mx-8 max-w-[500px]">
+          <h2 className="text-2xl mb-2 font-bold">Senhor dos Anéis (Continuidade)</h2>
+          <strong className="text-xl font-medium">
             O caminho que Gandalf deve percorrer para chegar ao condado gera uma sensação de continuidade.
           </strong>
         </div>
