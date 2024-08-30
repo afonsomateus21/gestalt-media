@@ -38,8 +38,31 @@ export default {
             4px 0px 2px #4C1D95,
             -4px 0px 2px #4C1D95
           `,
+          'extrastrong-violet-stroke': `
+            10px 10px 5px #4C1D95,
+            -10px 10px 5px #4C1D95,
+            -10px -10px 0 #4C1D95,
+            10px -10px 0 #4C1D95,
+            0px 10px 5px #4C1D95,
+            0px -10px 5px #4C1D95,
+            10px 0px 5px #4C1D95,
+            -10px 0px 5px #4C1D95
+          `,
+          'extrastrong-blue-stroke': `
+            10px 10px 5px #1e40af,
+            -10px 10px 5px #1e40af,
+            -10px -10px 0 #1e40af,
+            10px -10px 0 #1e40af,
+            0px 10px 5px #1e40af,
+            0px -10px 5px #1e40af,
+            10px 0px 5px #1e40af,
+            -10px 0px 5px #1e40af
+          `,
         },
-      }
+      },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [
@@ -55,6 +78,30 @@ export default {
             0px -4px 2px #4C1D95,
             4px 0px 2px #4C1D95,
             -4px 0px 2px #4C1D95
+          `,
+        },
+        '.text-shadow-extrastrong-violet-stroke': {
+          textShadow: `
+            10px 10px 5px #4C1D95,
+            -10px 10px 5px #4C1D95,
+            -10px -10px 0 #4C1D95,
+            10px -10px 0 #4C1D95,
+            0px 10px 5px #4C1D95,
+            0px -10px 5px #4C1D95,
+            10px 0px 5px #4C1D95,
+            -10px 0px 5px #4C1D95
+          `,
+        },
+        '.text-shadow-extrastrong-blue-stroke': {
+          textShadow: `
+            10px 10px 5px #1e40af,
+            -10px 10px 5px #1e40af,
+            -10px -10px 0 #1e40af,
+            10px -10px 0 #1e40af,
+            0px 10px 5px #1e40af,
+            0px -10px 5px #1e40af,
+            10px 0px 5px #1e40af,
+            -10px 0px 5px #1e40af
           `,
         },
       });

@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <main className="bg-blue-800 h-auto">
+    <main className="bg-gradient-to-b from-blue-800 to-violet-900 h-auto">
       <Outlet />
     </main>
   )

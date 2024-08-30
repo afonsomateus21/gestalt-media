@@ -5,7 +5,7 @@ interface ReferencesCardProps {
 export function ReferencesCard({ url } : ReferencesCardProps) {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-3">
-      <span className="text-center break-all">
+      <span className="text-left break-all">
         { url }
       </span>
     </div>

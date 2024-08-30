@@ -5,7 +5,7 @@ import AdvertisingImage from "../assets/advertising-image.png";
 
 export function Advertisings() {
   return (
-    <div className="min-h-screen w-full my-0 mx-auto p-8 text-neutral-300 ">
+    <div className="min-h-screen w-full my-0 mx-auto p-8 text-white ">
       <h1 className="text-[4rem] text-center mb-12 text-yellow-500 text-shadow-strong-stroke">Gestalt em Filmes e Séries</h1>
 
       <div className="flex flex-col md:flex-row items-center mb-12 border-b-4 border-yellow-500 pb-8">
@@ -53,10 +53,10 @@ export function Advertisings() {
         <div className="relative h-[400px] w-[300px] cursor-pointer transition-all duration-500 shadow-lg rounded-lg border-4 border-yellow-500">
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="grid grid-cols-4 gap-2">
-              <div className="bg-neutral-300 h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
-              <div className="bg-neutral-300 h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
-              <div className="bg-neutral-300 h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
-              <div className="bg-neutral-300 h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
+              <div className="bg-white h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
+              <div className="bg-white h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
+              <div className="bg-white h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
+              <div className="bg-white h-8 w-8 rounded-full transition-all duration-300 hover:bg-blue-500"></div>
             </div>
           </div>
         </div>
@@ -105,10 +105,10 @@ export function Advertisings() {
         <div className="relative h-[400px] w-[400px] cursor-pointer transition-all duration-500 shadow-lg rounded-lg border-4 border-yellow-500">
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="relative w-32 h-32">
-              <div className="absolute bg-neutral-300 h-8 w-8 rounded-full top-0 left-0 transition-transform duration-500 hover:translate-x-16 hover:translate-y-16"></div>
-              <div className="absolute bg-neutral-300 h-8 w-8 rounded-full top-0 right-0 transition-transform duration-500 hover:-translate-x-16 hover:translate-y-16"></div>
-              <div className="absolute bg-neutral-300 h-8 w-8 rounded-full bottom-0 left-0 transition-transform duration-500 hover:translate-x-16 hover:-translate-y-16"></div>
-              <div className="absolute bg-neutral-300 h-8 w-8 rounded-full bottom-0 right-0 transition-transform duration-500 hover:-translate-x-16 hover:-translate-y-16"></div>
+              <div className="absolute bg-white h-8 w-8 rounded-full top-0 left-0 transition-transform duration-500 hover:translate-x-16 hover:translate-y-16"></div>
+              <div className="absolute bg-white h-8 w-8 rounded-full top-0 right-0 transition-transform duration-500 hover:-translate-x-16 hover:translate-y-16"></div>
+              <div className="absolute bg-white h-8 w-8 rounded-full bottom-0 left-0 transition-transform duration-500 hover:translate-x-16 hover:-translate-y-16"></div>
+              <div className="absolute bg-white h-8 w-8 rounded-full bottom-0 right-0 transition-transform duration-500 hover:-translate-x-16 hover:-translate-y-16"></div>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ export function Advertisings() {
         <div className="w-full flex justify-evenly">
           <CardMediaOption 
             to="/"
-            title="Inicio"
+            title="Início"
             isBlue
           />
 
