@@ -63,6 +63,16 @@ export default {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
+      animation: {
+        'blink': 'blink-animation 2s infinite',
+      },
+      keyframes: {
+        'blink-animation': {
+          '0%': { opacity: 1 },
+          '50%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
     },
   },
   plugins: [
