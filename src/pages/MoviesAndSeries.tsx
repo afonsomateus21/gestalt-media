@@ -26,7 +26,7 @@ export function MoviesAndSeries() {
             target="_blank" rel="noopener noreferrer"
             className="absolute bottom-5 hover:bg-neutral-300 right-5 h-16 w-16 bg-white rounded-2xl flex items-center justify-center shadow-lg"
           >
-            <CirclePlay color="#1e40af" size={40} />
+            <CirclePlay color="#1e40af" size={50} />
           </a>
         </div>
         <div className="text-left mx-8 max-w-[500px]">
