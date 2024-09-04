@@ -101,18 +101,28 @@ export function MediaOptions() {
           onMouseMove={handleMouseMove}
         >
           <CardGestaltConcepts 
-            link="https://www.youtube.com/embed/8kQfT9k1Fuw"
+            link="https://www.youtube.com/embed/kcNgyPNNyBw"
             title="Vídeo 01"
           />
 
           <CardGestaltConcepts 
-            link="https://www.youtube.com/embed/KSMvh0eiQtg"
+            link="https://www.youtube.com/embed/ZvM4nQ8aYzE"
             title="Vídeo 02"
           />
 
           <CardGestaltConcepts 
-            link="https://www.youtube.com/embed/KSMvh0eiQtg"
+            link="https://www.youtube.com/embed/8kQfT9k1Fuw"
             title="Vídeo 03"
+          />
+
+          <CardGestaltConcepts 
+            link="https://www.youtube.com/embed/KSMvh0eiQtg"
+            title="Vídeo 04"
+          />
+
+          <CardGestaltConcepts 
+            link="https://www.youtube.com/embed/yPlGJuPQwho"
+            title="Vídeo 05"
           />
         </div>
 
