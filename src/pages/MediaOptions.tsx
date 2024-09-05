@@ -87,7 +87,7 @@ export function MediaOptions() {
         </div>
       </div>
 
-      <div className="w-[1200px] h-full mx-auto my-20 flex flex-col justify-evenly">
+      <div className="w-[1200px] h-full mx-auto mt-[-80px] flex flex-col justify-evenly">
         <div className="w-full">
           <h1 className="font-extrabold text-[5rem] text-white text-shadow-extrastrong-violet-stroke animate-blink">Explorar</h1>
         </div>
